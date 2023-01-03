@@ -11,23 +11,17 @@
     <div class="wrapper">
       <h1>Guess The Word</h1>
       <div class="content">
-        <div class="inputs">
-          <input type="text" class="type" disabled />
-          <input type="text" class="type" disabled />
-          <input type="text" class="type" disabled />
-          <input type="text" class="type" disabled />
-          <input type="text" class="type" disabled />
-          <input type="text" class="type" disabled />
-        </div>
+        <input type="text" class="typing-input" maxlength="1" />
+        <div class="inputs"></div>
         <div class="details">
-          <p class="hint"><span>Hint will be shown here</span></p>
-          <p class="guess-left">
-            Remaining Guesses<span>will be shown here</span>
-          </p>
-          <p class="wrong-letter">Wrong letters<span>a,b,c,d</span></p>
+          <p class="hint">Hint:<span></span></p>
+          <p class="guess-left">Remaining Guesses : <span> </span></p>
+          <p class="wrong-letter">Wrong letters: <span></span></p>
         </div>
         <button class="reset-btn">Reset Game</button>
       </div>
     </div>
+    <script src="word.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
